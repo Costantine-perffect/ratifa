@@ -1,0 +1,106 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 12px;
+  color: rgb(16, 8, 26);
+  background-color: aqua;
+}
+
+header {
+  background-color: blue;
+  background-size: cover;
+  color: gold;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+  margin: 0;
+  padding: 20;
+}
+
+nav ul li {
+  float: center;
+}
+
+nav ul li a {
+  display: block;
+  color: springgreen;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+  color: purple;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+#speakers .speaker {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+
+}
+
+#speakers img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#schedule table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: blueviolet;
+}
+
+#schedule th,
+#schedule td {
+  text-align: left;
+  padding: 20px;
+  border-top: 2px solid peachpuff;
+  border-bottom: 1px solid peachpuff;
+  border-left: 1px solid peachpuff;
+  border-right: 1px solid peachpuff;
+}
+
+#speeches article {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: silver;
+  color: mediumvioletred;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  text-emphasis: none;
+  text-align: center;
+  padding: 40px;
+  text-size-adjust: 20px;
+  text-wrap: 20px;
+}
